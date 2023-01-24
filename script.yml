@@ -1,4 +1,4 @@
- # Installing the Java (Open Jdk)
- name: Install Java 1.8
-  apt: name=openjdk-8-jdk
-
+# Installing the Java (Open Jdk) 
+- name: Install Java 1.8
+  apt: 
+  name: openjdk-8-jdk
