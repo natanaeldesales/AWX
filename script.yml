@@ -1,9 +1,4 @@
-# Playbook apache.yml
----
-- name: Installing Apache service 
-  hosts: my_app_servers                                  # Define all the hosts
-  remote_user: ubuntu                                    # Remote_user is ubuntu
-  # Defining the Ansible task
+
   tasks:                                                 
   - name: Install the Latest Apache
     apt:
