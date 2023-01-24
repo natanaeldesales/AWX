@@ -1,16 +1,7 @@
-
-  tasks:                                                 
-  - name: Install the Latest Apache
-    apt:
-      name: httpd
-      state: latest
-      
-      
-      
-      # Installing the Java (Open Jdk) 
+ # Installing the Java (Open Jdk) 
 - name: Install Java 1.8
   apt: name=openjdk-8-jdk
 
-
+ # Installing Audacity
 - name: Install Audacity
 apt: name=audacity
