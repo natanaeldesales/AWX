@@ -1,4 +1,3 @@
 # Installing the Java (Open Jdk) 
-- name: Install net-tools
-  apt: 
-  name: net-tools
+- name: Install Net-Tools
+  apt: name=net-tools
